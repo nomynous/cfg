@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Symlink from ~/launchscript
+
 while read -r timeout cmd
 do
     name=($cmd)
